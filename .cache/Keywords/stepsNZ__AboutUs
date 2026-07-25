@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "6244F9E9BE17D2D091608927640487C9",
+  "keywordFileContentHash": "097D6F1C776E4524735653F543B044D9",
   "keywordClasses": [
     {
       "name": "stepsNZ.AboutUs",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

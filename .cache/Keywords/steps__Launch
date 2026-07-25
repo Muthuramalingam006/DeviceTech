@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "D33D132BBA6093D03CCD3B099024D89B",
+  "keywordFileContentHash": "9B4B68433B5EF21E5878E7AAA86E937B",
   "keywordClasses": [
     {
       "name": "steps.Launch",
@@ -20,11 +20,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

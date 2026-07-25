@@ -27,7 +27,6 @@ import org.openqa.selenium.WebDriver
 
 public class AboutUs {
 	KeywordLogger logger = new KeywordLogger()
-	WebDriver driver = new ChromeDriver()
 
 	def validateAboutUs() {
 		logger.logInfo("Starting validate about us scenario..........")

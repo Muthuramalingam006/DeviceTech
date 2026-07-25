@@ -35,12 +35,6 @@ public class Launch {
 
 	WebDriver driver;
 
-	/*	def launchUrl(String url) {
-	 WebUI.openBrowser(url)
-	 WebUI.maximizeWindow()
-	 driver = DriverFactory.getWebDriver()
-	 }*/
-
 	@Keyword
 	def launchUrl(String url) {
 		WebUI.openBrowser('')
