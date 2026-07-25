@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Cover Letter text</name>
+   <tag></tag>
+   <elementGuidId>aeec8e78-f5ee-4dc8-b29f-c5f4b6a42751</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='joinOurTeamForm']/div/div[5]/div[2]/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Cover Letter (PDF or Word Document)*&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>2c1114dd-ded9-4471-a30d-5394ea281a71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>coverLetter</value>
+      <webElementGuid>1b4d1ada-f15c-4123-a9b3-ab6704bb75dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cover Letter (PDF or Word Document)* </value>
+      <webElementGuid>ff6c006e-182c-48f8-8847-8ea6d0fdcc16</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;joinOurTeamForm&quot;)/div[@class=&quot;form-fields&quot;]/div[@class=&quot;form-row&quot;]/div[@class=&quot;form-input&quot;]/div[@class=&quot;js-file-input form-file-input&quot;]/label[1]</value>
+      <webElementGuid>d229a1f2-51ac-414a-a952-353f72c28fb2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='joinOurTeamForm']/div/div[5]/div[2]/div/label</value>
+      <webElementGuid>c6ac1f07-5548-4ae2-9d85-93b488957cbe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload'])[1]/following::label[1]</value>
+      <webElementGuid>389957b6-4b66-4bb3-bd9a-ed8d57acc2d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Resume (PDF or Word Document)*'])[1]/following::label[2]</value>
+      <webElementGuid>ae922307-32b7-467e-b71d-b357d9cb2593</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload'])[2]/preceding::label[1]</value>
+      <webElementGuid>f9ca61fe-03d0-4d83-81df-a1536614d9af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacy Policy'])[1]/preceding::label[2]</value>
+      <webElementGuid>5d2503e4-7942-4851-a89a-9d2681029f41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Cover Letter (PDF or Word Document)*']/parent::*</value>
+      <webElementGuid>eca02d44-1a89-4176-9e24-c32ba2926131</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div[2]/div/label</value>
+      <webElementGuid>c5e3ea55-43e8-4c54-a9c0-16acf07ebe71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Cover Letter (PDF or Word Document)* ' or . = 'Cover Letter (PDF or Word Document)* ')]</value>
+      <webElementGuid>399c0df4-28b7-4144-a64b-fbbcc7738686</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

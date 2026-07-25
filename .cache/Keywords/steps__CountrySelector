@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "99DB2EA2A6807C19048F5D0B2B421D6B",
+  "keywordClasses": [
+    {
+      "name": "steps.CountrySelector",
+      "keywordMethods": [
+        {
+          "name": "validateCountrySelector",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

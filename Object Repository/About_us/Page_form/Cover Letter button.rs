@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Cover Letter button</name>
+   <tag></tag>
+   <elementGuidId>dec89456-b71b-49af-a0f0-b08503560a32</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='joinOurTeamForm']/div/div[5]/div[2]/div/div/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.js-file-input > div.form-file-input > label.btn-browse</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Upload&quot;i >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>070ce18e-43d3-46be-afef-1f1a2a287104</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>coverLetter</value>
+      <webElementGuid>d787bab7-d529-4de5-b0d6-b4c7689edc6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn-browse</value>
+      <webElementGuid>22321188-f017-47eb-a9a9-584a19cf134d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Upload</value>
+      <webElementGuid>7633d58c-4286-469e-8f95-731d547f3ae2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;joinOurTeamForm&quot;)/div[@class=&quot;form-fields&quot;]/div[@class=&quot;form-row&quot;]/div[@class=&quot;form-input&quot;]/div[@class=&quot;js-file-input form-file-input&quot;]/div[@class=&quot;js-file-input&quot;]/div[@class=&quot;form-file-input&quot;]/label[@class=&quot;btn-browse&quot;]</value>
+      <webElementGuid>0b0855f2-cd04-49d1-b0b2-13aaeecf7695</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='joinOurTeamForm']/div/div[5]/div[2]/div/div/div/label</value>
+      <webElementGuid>703136bf-13c6-424f-ba52-8d7b27cf1dd6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cover Letter (PDF or Word Document)*'])[1]/following::label[1]</value>
+      <webElementGuid>d67b1319-0c20-459f-b963-32096a772e88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload'])[1]/following::label[2]</value>
+      <webElementGuid>17605e2a-8bc0-425a-8605-57a48787eb9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacy Policy'])[1]/preceding::label[1]</value>
+      <webElementGuid>3e15d690-69dd-41d3-b576-7ae703790ba7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please confirm you have full work rights for the country of your application by ticking this box.*'])[1]/preceding::label[2]</value>
+      <webElementGuid>c2e8285b-b186-4565-ab7e-4fd78467e69e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/label</value>
+      <webElementGuid>9989e6dd-524c-4d44-a79d-1e84fea58af0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Upload' or . = 'Upload')]</value>
+      <webElementGuid>be092b32-bdbd-4ed7-97e2-ed7fa2319b12</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

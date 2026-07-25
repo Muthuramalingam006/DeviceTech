@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "CA15EC4AB959C09BB4DB8C066F0E785F",
+  "keywordClasses": [
+    {
+      "name": "stepsNZ.CountrySelector",
+      "keywordMethods": [
+        {
+          "name": "validateCountrySelector",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

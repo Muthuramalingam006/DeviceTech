@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>interest button</name>
+   <tag></tag>
+   <elementGuidId>9bb01584-5fa1-4af0-ae52-8ece9c554eb0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='dt-joinOurTeam']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#dt-joinOurTeam</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;EXPRESS INTEREST&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>785c384e-8098-4e4d-bbfd-2c0815069291</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button active</value>
+      <webElementGuid>dc9f334b-f9d7-4325-aee1-913957b557d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>dt-joinOurTeam</value>
+      <webElementGuid>7e88076b-6578-474b-a3ca-29716235d97a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>EXPRESS INTEREST</value>
+      <webElementGuid>4eb0ea10-f9f0-4da0-8193-ceb01dc1ebbc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dt-joinOurTeam&quot;)</value>
+      <webElementGuid>3a6acd23-1988-4c91-b4d9-e173d8bbc64c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='dt-joinOurTeam']</value>
+      <webElementGuid>c2389b4c-73da-40d3-ae3e-5e7ec8282031</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='joinOurTeamForm']/div[4]/button</value>
+      <webElementGuid>c46851d3-7846-4cdf-94eb-cdedcfe3eaa4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please confirm you have full work rights for the country of your application by ticking this box.*'])[1]/following::button[1]</value>
+      <webElementGuid>141b7840-e4e7-4157-bb38-6553b0fe31ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacy Policy'])[1]/following::button[1]</value>
+      <webElementGuid>9e0ad9d0-913f-4f16-bc0a-bab1241e485d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='IMPORTANT! Protect yourself from recruitment scams.'])[1]/preceding::button[1]</value>
+      <webElementGuid>d3d333a7-c98c-4c8b-ab09-93983573c541</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Be aware'])[1]/preceding::button[1]</value>
+      <webElementGuid>8a223e8f-5ff9-483e-b2b9-867a29df205c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='EXPRESS INTEREST']/parent::*</value>
+      <webElementGuid>77a1bac3-c339-45a6-bae7-d8ef7ff7f99d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/button</value>
+      <webElementGuid>ae05af15-c678-44df-a51f-3cdb2d5e3416</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'dt-joinOurTeam' and (text() = 'EXPRESS INTEREST' or . = 'EXPRESS INTEREST')]</value>
+      <webElementGuid>b14c1f97-fd71-4e90-ac4a-ff2bcd90cf7e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

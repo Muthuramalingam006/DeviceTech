@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ValidateJoinOurTeam-SCM-159</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>40874ebd-f6f4-4d6e-8df0-49445d8ef020</testCaseGuid>
+</TestCaseEntity>

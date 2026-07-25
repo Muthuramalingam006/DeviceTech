@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "BD4EE24BC707CD07D4A79ADA31D05885",
+  "keywordClasses": [
+    {
+      "name": "mobile.CountrySelector",
+      "keywordMethods": [
+        {
+          "name": "validateCountrySelector",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>linked in link</name>
+   <tag></tag>
+   <elementGuidId>124015ec-18ee-419a-9086-dd2170928582</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@alt='LinkedIn icon']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.ico-share</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;LinkedIn icon&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>9bea6155-719d-474c-9f33-8c7f680560bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>_ui/responsive/common/images/ico-li.svg</value>
+      <webElementGuid>371313bf-7726-4f00-99ac-26a4479aaeb5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>LinkedIn icon</value>
+      <webElementGuid>02638832-0508-418b-b059-6ea7dbf14e8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>LinkedIn</value>
+      <webElementGuid>ae604297-fdea-4e82-8693-2c80baf4ca82</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ico-share</value>
+      <webElementGuid>e819b03e-f1c4-44f7-97fb-b0b7a2e008cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths navbar-sticky&quot;]/body[@class=&quot;page-joinourteam pageType-ContentPage template-pages-layout-careersPage pageLabel--join-our-team smartedit-page-uid-joinourteam smartedit-page-uuid-eyJpdGVtSWQiOiJqb2lub3VydGVhbSIsImNhdGFsb2dJZCI6ImRldmljZWF1Q29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9 smartedit-catalog-version-uuid-deviceauContentCatalog/Online  language-en&quot;]/div[@class=&quot;main-wrapper&quot;]/main[1]/div[1]/div[@class=&quot;main-content-wrapper&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;block-careers block-careers-top-block content-section&quot;]/div[@class=&quot;page-container&quot;]/div[@class=&quot;module-columned&quot;]/div[@class=&quot;module-column comp-std-content text-column wow fadeInRight&quot;]/div[@class=&quot;module-foot&quot;]/span[@class=&quot;comp-social&quot;]/span[@class=&quot;social-icons&quot;]/a[@class=&quot;comp-social-ico ico-li&quot;]/img[@class=&quot;ico-share&quot;]</value>
+      <webElementGuid>10f7142a-e592-4213-886a-d74e8075a72b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='LinkedIn icon']</value>
+      <webElementGuid>94447254-4452-4150-ad20-99a8b5c53d57</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]/a/img</value>
+      <webElementGuid>b053bd7f-5c6f-4b9b-8a11-29b9019e3248</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '_ui/responsive/common/images/ico-li.svg' and @alt = 'LinkedIn icon' and @title = 'LinkedIn']</value>
+      <webElementGuid>4e3d2a67-7637-4b94-91f0-0451000d5934</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

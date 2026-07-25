@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "CD6CB1374F01418077178DF35ED7B825",
+  "keywordClasses": [
+    {
+      "name": "steps.CountryChange",
+      "keywordMethods": [
+        {
+          "name": "verifyFooterCountrySelector",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>StickyBanner</name>
+   <tag></tag>
+   <elementGuidId>070d1cfa-5675-4100-af96-3bb10dd34ad7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//header[@id='cx-header']/cx-page-layout/cx-page-slot[3]/app-dynamic-cms-component-wrapper/app-navigation-bar/nav/ul/li/ul/li/div/div/div[2]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

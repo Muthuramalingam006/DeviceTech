@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Page_not_found</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>55cddfbf-68bc-4d3e-ac20-d0d6a8b8ecc2</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,43 @@
+{
+  "keywordFileContentHash": "D74F7F6A6E90C5BB1F333063AE658F10",
+  "keywordClasses": [
+    {
+      "name": "steps.SikuliHelper",
+      "keywordMethods": [
+        {
+          "name": "compareScreenshot",
+          "parameters": [
+            {
+              "name": "baselinePath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "currentPath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

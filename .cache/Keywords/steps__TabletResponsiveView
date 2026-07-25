@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "116819C5120E3E9A8E871FBDC6E5CA25",
+  "keywordClasses": [
+    {
+      "name": "steps.LaunchTablet",
+      "keywordMethods": [
+        {
+          "name": "launchTabletView",
+          "parameters": [
+            {
+              "name": "url",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

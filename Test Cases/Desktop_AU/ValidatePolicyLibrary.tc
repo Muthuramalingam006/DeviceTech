@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ValidatePolicyLibrary</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5f41cf9b-4db1-4488-a4e5-dfac8e31bff3</testCaseGuid>
+</TestCaseEntity>

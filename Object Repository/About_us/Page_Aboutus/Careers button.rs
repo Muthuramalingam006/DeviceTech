@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Careers button</name>
+   <tag></tag>
+   <elementGuidId>0e624d17-3563-4c3d-9503-282edf1eb10c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//header[@id='site-head']/div[2]/nav/div/div[2]/ul/li[13]/ul/li/div/div/a[3]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a[title=&quot;Careers&quot;] > div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#site-head >> internal:role=link[name=&quot;Careers&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>2eeb7f8c-218b-454f-8fc5-5854996ad9fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Careers</value>
+      <webElementGuid>734acdca-c0ad-40b5-83f0-c7d2d5784e52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;site-head&quot;)/div[@class=&quot;row header-area&quot;]/nav[1]/div[@class=&quot;page-container&quot;]/div[@class=&quot;navbar navbar-default megamenu hidden-xs&quot;]/ul[@class=&quot;nav navbar-nav menu&quot;]/li[@class=&quot;dropdown megamenu-fw has-children&quot;]/ul[@class=&quot;dropdown-menu megamenu-content&quot;]/li[1]/div[@class=&quot;content-section container&quot;]/div[@class=&quot;mega-style-2&quot;]/a[3]/div[1]</value>
+      <webElementGuid>dea27b3b-e723-4e7c-8cb0-7fabcc543805</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//header[@id='site-head']/div[2]/nav/div/div[2]/ul/li[13]/ul/li/div/div/a[3]/div</value>
+      <webElementGuid>d840b50c-ea9a-4b26-8040-ac58aa0cd509</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Our Leaders'])[1]/following::div[1]</value>
+      <webElementGuid>312ed851-6bd6-40d9-87c6-0d7e25271957</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Company Overview'])[1]/following::div[2]</value>
+      <webElementGuid>e15b7ac7-e4e7-496e-830c-e888ec3537e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Our Specialities'])[2]/preceding::div[1]</value>
+      <webElementGuid>118a039c-77db-4fac-a835-57bc99ba2721</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Specialities'])[2]/preceding::div[1]</value>
+      <webElementGuid>f0f759c6-d380-481b-b4f4-c91d72c51073</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Careers']/parent::*</value>
+      <webElementGuid>12c301f2-556d-4605-aad7-722d6b412552</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[13]/ul/li/div/div/a[3]/div</value>
+      <webElementGuid>cf03d46e-268b-415c-8f47-03e0ebd7f895</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Careers' or . = 'Careers')]</value>
+      <webElementGuid>0c62fb4b-2bbb-44b5-a8b0-09d049180134</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

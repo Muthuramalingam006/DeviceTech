@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CategoryNavigation</name>
+   <tag>jira-integration</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2c9a9219-e53f-4e20-8786-6e35f3fefc3c</testCaseGuid>
+</TestCaseEntity>

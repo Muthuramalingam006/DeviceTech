@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>submitting check box</name>
+   <tag></tag>
+   <elementGuidId>2a1917c8-98af-48c6-b080-6ccf4e47ad09</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='joinOurTeamForm']/div[2]/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#joinOurTeamForm > div.form-row > div.form-input > label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>label >> internal:has-text=&quot;By submitting this form you give your consent for this information to be include&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>a2b82fd0-f07b-4ea4-9bf7-0ac591f59e90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>termsCheck</value>
+      <webElementGuid>8a373982-a5e7-4bc5-8a7f-dddd3dc65934</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>By submitting this form you give your consent for this information to be included in Device Technologies database for future marketing initiatives in line with our Privacy Policy.*</value>
+      <webElementGuid>41e00698-f371-4e2a-9b03-b54f7fff9713</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;joinOurTeamForm&quot;)/div[@class=&quot;form-row&quot;]/div[@class=&quot;form-input&quot;]/label[1]</value>
+      <webElementGuid>3596cdd0-8e73-4066-a5bf-3dcfd8683dcc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='joinOurTeamForm']/div[2]/div/label</value>
+      <webElementGuid>28c2ae78-0795-4559-af5d-d323d3b6cfdf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload'])[2]/following::label[1]</value>
+      <webElementGuid>24e221a6-14da-454a-83ba-c9d8e999f6a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cover Letter (PDF or Word Document)*'])[1]/following::label[2]</value>
+      <webElementGuid>ddb8683c-0ee3-4c2a-8fab-6e50e1d89753</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please confirm you have full work rights for the country of your application by ticking this box.*'])[1]/preceding::label[1]</value>
+      <webElementGuid>b7ae4543-8d9a-4e49-a2a4-b5bda6f82415</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/label</value>
+      <webElementGuid>f66e6d71-dd69-4d19-9f3e-b8e652811f69</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'By submitting this form you give your consent for this information to be included in Device Technologies database for future marketing initiatives in line with our Privacy Policy.*' or . = 'By submitting this form you give your consent for this information to be included in Device Technologies database for future marketing initiatives in line with our Privacy Policy.*')]</value>
+      <webElementGuid>cd04227f-ee76-4977-98a6-55fa895f5d9c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

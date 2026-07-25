@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>current or previous job title text</name>
+   <tag></tag>
+   <elementGuidId>f4bc1eb1-f7f2-4df3-9194-17dd74f89763</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='joinOurTeamForm']/div/div[4]/div/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Current or Previous Job Title*&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>08d5fe79-4683-4cba-9fe3-75c8e3d7b3ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>jobTitle</value>
+      <webElementGuid>9936a028-d99a-428f-a616-7784c369cad1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Current or Previous Job Title*</value>
+      <webElementGuid>6d20f8cb-39b7-438d-af6b-fa60e2840aea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;joinOurTeamForm&quot;)/div[@class=&quot;form-fields&quot;]/div[@class=&quot;form-row&quot;]/div[@class=&quot;form-input&quot;]/div[@class=&quot;form-input&quot;]/label[1]</value>
+      <webElementGuid>1d5d394f-a2a8-4165-943f-d23f5fa2b472</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='joinOurTeamForm']/div/div[4]/div/div/label</value>
+      <webElementGuid>31cacd54-2819-4db1-b320-46f06e395c07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='State*'])[1]/following::label[1]</value>
+      <webElementGuid>c86513c5-49ed-4ca8-a4f5-d8a66c430da5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Country*'])[1]/following::label[2]</value>
+      <webElementGuid>0ae6316d-0ee2-4af0-993b-d73aaae625ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Availability*'])[1]/preceding::label[1]</value>
+      <webElementGuid>5f4f521c-892f-45d4-9c41-742a3b93878b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Resume (PDF or Word Document)*'])[1]/preceding::label[2]</value>
+      <webElementGuid>71d680f5-fa4e-4deb-8f9a-e524293a0b16</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Current or Previous Job Title*']/parent::*</value>
+      <webElementGuid>68277705-38df-4779-9a15-bb90fa865f5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/label</value>
+      <webElementGuid>1806eaf5-7195-4709-97e6-b9b2898bc000</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Current or Previous Job Title*' or . = 'Current or Previous Job Title*')]</value>
+      <webElementGuid>dc9fc741-39f9-43ba-a8c6-de8141418aec</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
