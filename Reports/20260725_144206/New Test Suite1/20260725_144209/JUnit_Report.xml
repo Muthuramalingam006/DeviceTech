@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite1" time="216.135" tests="1" passed="0" failures="1" errors="0" incompleted="0" skipped="0">
+   <testsuite name="New Test Suite1" tests="1" passed="0" failures="1" errors="0" incompleted="0" skipped="0" time="216.135" timestamp="2026-07-25T09:12:25.563Z" hostname="manot - Mano" id="Test Suites/New Test Suite1" status="FAILED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\manot\\Downloads\\device_content_d2_env_au (2)\\device_content_d2_env_au\\Reports\\20260725_144206\\New Test Suite1\\20260725_144209"/>
+         <property name="logFiles" value="C:\\Users\\manot\\Downloads\\device_content_d2_env_au (2)\\device_content_d2_env_au\\Reports\\20260725_144206\\New Test Suite1\\20260725_144209\\console0.log, C:\\Users\\manot\\Downloads\\device_content_d2_env_au (2)\\device_content_d2_env_au\\Reports\\20260725_144206\\New Test Suite1\\20260725_144209\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\manot\\Downloads\\device_content_d2_env_au (2)\\device_content_d2_env_au\\Reports\\20260725_144206\\New Test Suite1\\20260725_144209\\1784970824855.png, C:\\Users\\manot\\Downloads\\device_content_d2_env_au (2)\\device_content_d2_env_au\\Reports\\20260725_144206\\New Test Suite1\\20260725_144209\\1784970884297.png, C:\\Users\\manot\\Downloads\\device_content_d2_env_au (2)\\device_content_d2_env_au\\Reports\\20260725_144206\\New Test Suite1\\20260725_144209\\1784970945929.png"/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="manot - Mano"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.3.0.0"/>
+         <property name="browser" value="Chrome 150.0.7871.182"/>
+         <property name="userFullName" value="Psathi"/>
+         <property name="hostAddress" value="192.168.29.234"/>
+         <property name="sessionId" value="bc361eda85a089fc6e399b488bcdeff4"/>
+         <property name="projectName" value="device"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Desktop - NZ/About_us" time="15.631" classname="Test Cases/Desktop - NZ/About_us" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Desktop - NZ/About_us FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:89)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:104)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:360)&#xa;	at steps.Launch.launchUrl(Launch.groovy:48)&#xa;	at About_us.run(About_us:26)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)&#xa;	at S0725_0.run(S0725_0.groovy:40)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;Caused by: org.openqa.selenium.NoSuchSessionException: invalid session id&#xa;Build info: version: '4.39.0', revision: '126f156aee'&#xa;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Command: [bc361eda85a089fc6e399b488bcdeff4, maximizeCurrentWindow {}]&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.182, chrome: {chromedriverVersion: 149.0.7827.53 (9d2c8156a721..., userDataDir: C:\Users\manot\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59021}, goog:processID: 25580, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59021/devtoo..., se:cdpVersion: 150.0.7871.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:40644/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: bc361eda85a089fc6e399b488bcdeff4&#xa;	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)&#xa;	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)&#xa;	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)&#xa;	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)&#xa;	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:22)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:642)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1098)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)&#xa;	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)&#xa;	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:416)&#xa;	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$OgwnmG3n.maximize(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.doCall(MaximizeWindowKeyword.groovy:85)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.call(MaximizeWindowKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	... 22 more&#xa;"/>
+         <system-out><![CDATA[25-07-2026T14:45:46 - [TEST_CASE][FAILED] - Test Cases/Desktop - NZ/About_us: Test Cases/Desktop - NZ/About_us FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:104)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:360)
+	at steps.Launch.launchUrl(Launch.groovy:48)
+	at About_us.run(About_us:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0725_0.run(S0725_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [bc361eda85a089fc6e399b488bcdeff4, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.182, chrome: {chromedriverVersion: 149.0.7827.53 (9d2c8156a721..., userDataDir: C:\Users\manot\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59021}, goog:processID: 25580, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59021/devtoo..., se:cdpVersion: 150.0.7871.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:40644/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bc361eda85a089fc6e399b488bcdeff4
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:22)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:642)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1098)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:416)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$OgwnmG3n.maximize(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.doCall(MaximizeWindowKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.call(MaximizeWindowKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 22 more
+
+
+25-07-2026T14:45:46 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+25-07-2026T14:45:46 - [TEST_STEP][PASSED] - launch = new steps.Launch(): null
+
+25-07-2026T14:45:46 - [TEST_STEP][PASSED] - aboutus = new stepsNZ.AboutUs(): null
+
+25-07-2026T14:45:47 - [TEST_STEP][FAILED] - launch.launchUrl(baseUrlNZ): Unable to maximize current window (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:104)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:360)
+	at steps.Launch.launchUrl(Launch.groovy:48)
+	at About_us.run(About_us:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0725_0.run(S0725_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [bc361eda85a089fc6e399b488bcdeff4, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.182, chrome: {chromedriverVersion: 149.0.7827.53 (9d2c8156a721..., userDataDir: C:\Users\manot\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59021}, goog:processID: 25580, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59021/devtoo..., se:cdpVersion: 150.0.7871.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:40644/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bc361eda85a089fc6e399b488bcdeff4
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:22)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:642)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1098)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:416)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$OgwnmG3n.maximize(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.doCall(MaximizeWindowKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.call(MaximizeWindowKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:104)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:360)
+	at steps.Launch.launchUrl(Launch.groovy:48)
+	at Script1761855760196.run(Script1761855760196.groovy:26)
+	... 16 more
+)
+
+25-07-2026T14:45:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+25-07-2026T14:45:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+25-07-2026T14:45:47 - [MESSAGE][INFO] - User set preference: ['prefs', '{profile.password_manager_leak_detection=false}']
+
+25-07-2026T14:45:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+25-07-2026T14:45:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+25-07-2026T14:46:01 - [MESSAGE][PASSED] - Navigate to 'https://w3q.device.co.nz/' successfully
+
+25-07-2026T14:46:01 - [MESSAGE][WARNING] - Cannot take screenshot
+
+25-07-2026T14:46:01 - [MESSAGE][FAILED] - Unable to maximize current window (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:104)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:360)
+	at steps.Launch.launchUrl(Launch.groovy:48)
+	at About_us.run(About_us:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0725_0.run(S0725_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [bc361eda85a089fc6e399b488bcdeff4, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.182, chrome: {chromedriverVersion: 149.0.7827.53 (9d2c8156a721..., userDataDir: C:\Users\manot\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59021}, goog:processID: 25580, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59021/devtoo..., se:cdpVersion: 150.0.7871.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:40644/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bc361eda85a089fc6e399b488bcdeff4
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:22)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:642)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1098)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:416)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$OgwnmG3n.maximize(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.doCall(MaximizeWindowKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.call(MaximizeWindowKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:104)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:360)
+	at steps.Launch.launchUrl(Launch.groovy:48)
+	at Script1761855760196.run(Script1761855760196.groovy:26)
+	... 16 more
+)
+
+25-07-2026T14:46:01 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[25-07-2026T14:45:46 - [TEST_CASE][FAILED] - Test Cases/Desktop - NZ/About_us: Test Cases/Desktop - NZ/About_us FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:104)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:360)
+	at steps.Launch.launchUrl(Launch.groovy:48)
+	at About_us.run(About_us:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:506)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:497)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:468)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:426)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0725_0.run(S0725_0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [bc361eda85a089fc6e399b488bcdeff4, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.182, chrome: {chromedriverVersion: 149.0.7827.53 (9d2c8156a721..., userDataDir: C:\Users\manot\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59021}, goog:processID: 25580, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59021/devtoo..., se:cdpVersion: 150.0.7871.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:40644/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bc361eda85a089fc6e399b488bcdeff4
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:22)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:642)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1098)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:416)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$OgwnmG3n.maximize(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.doCall(MaximizeWindowKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.call(MaximizeWindowKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 22 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[25-07-2026T14:42:25 - [TEST_STEP][PASSED] - Start listener action : setup: null
+
+25-07-2026T14:42:25 - [TEST_SUITE][FAILED] - New Test Suite1: null
+
+25-07-2026T14:46:01 - [TEST_STEP][PASSED] - Start listener action : teardown: null]]></system-out>
+      <system-err><![CDATA[25-07-2026T14:42:25 - [TEST_SUITE][FAILED] - New Test Suite1: null]]></system-err>
+   </testsuite>
+</testsuites>

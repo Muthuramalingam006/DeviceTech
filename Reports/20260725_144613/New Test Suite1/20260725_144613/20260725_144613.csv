@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite1,Chrome 150.0.7871.182,,,25-07-2026 14:46:34,25-07-2026 14:48:18,1m - 44.226s,PASSED
+,,,,,,,
+Start listener action : setup,Chrome 150.0.7871.182,,,25-07-2026 14:46:34,25-07-2026 14:46:34,0.010s,PASSED
+,,,,,,,
+Test Cases/Desktop - NZ/About_us,Chrome 150.0.7871.182,,,25-07-2026 14:47:40,25-07-2026 14:48:18,37.406s,PASSED
+Start listener action : beforeTestCase,Chrome 150.0.7871.182,,,25-07-2026 14:47:40,25-07-2026 14:47:40,0.000s,PASSED
+launch = new steps.Launch(),Chrome 150.0.7871.182,,,25-07-2026 14:47:40,25-07-2026 14:47:40,0.002s,PASSED
+aboutus = new stepsNZ.AboutUs(),Chrome 150.0.7871.182,,,25-07-2026 14:47:40,25-07-2026 14:47:42,1.236s,PASSED
+launch.launchUrl(baseUrlNZ),Chrome 150.0.7871.182,,,25-07-2026 14:47:42,25-07-2026 14:48:01,19.151s,PASSED
+aboutus.validateAboutUs(),Chrome 150.0.7871.182,,,25-07-2026 14:48:01,25-07-2026 14:48:17,16.404s,PASSED
+closeBrowser(),Chrome 150.0.7871.182,,,25-07-2026 14:48:17,25-07-2026 14:48:18,0.576s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 150.0.7871.182,,,25-07-2026 14:48:18,25-07-2026 14:48:18,0.001s,PASSED
+,,,,,,,
+Start listener action : teardown,Chrome 150.0.7871.182,,,25-07-2026 14:48:18,25-07-2026 14:48:18,0.001s,PASSED

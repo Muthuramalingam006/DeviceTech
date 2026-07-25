@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite1" time="104.13" tests="1" passed="1" failures="0" errors="0" incompleted="0" skipped="0">
+   <testsuite name="New Test Suite1" tests="1" passed="1" failures="0" errors="0" incompleted="0" skipped="0" time="104.13" timestamp="2026-07-25T09:16:34.078Z" hostname="manot - Mano" id="Test Suites/New Test Suite1" status="PASSED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\manot\\Downloads\\device_content_d2_env_au (2)\\device_content_d2_env_au\\Reports\\20260725_144613\\New Test Suite1\\20260725_144613"/>
+         <property name="logFiles" value="C:\\Users\\manot\\Downloads\\device_content_d2_env_au (2)\\device_content_d2_env_au\\Reports\\20260725_144613\\New Test Suite1\\20260725_144613\\console0.log, C:\\Users\\manot\\Downloads\\device_content_d2_env_au (2)\\device_content_d2_env_au\\Reports\\20260725_144613\\New Test Suite1\\20260725_144613\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\manot\\Downloads\\device_content_d2_env_au (2)\\device_content_d2_env_au\\Reports\\20260725_144613\\New Test Suite1\\20260725_144613\\1784971031011.png, C:\\Users\\manot\\Downloads\\device_content_d2_env_au (2)\\device_content_d2_env_au\\Reports\\20260725_144613\\New Test Suite1\\20260725_144613\\1784971031997.png, C:\\Users\\manot\\Downloads\\device_content_d2_env_au (2)\\device_content_d2_env_au\\Reports\\20260725_144613\\New Test Suite1\\20260725_144613\\1784971060346.png, C:\\Users\\manot\\Downloads\\device_content_d2_env_au (2)\\device_content_d2_env_au\\Reports\\20260725_144613\\New Test Suite1\\20260725_144613\\1784971060573.png"/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="manot - Mano"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.3.0.0"/>
+         <property name="browser" value="Chrome 150.0.7871.182"/>
+         <property name="userFullName" value="Psathi"/>
+         <property name="hostAddress" value="10.81.0.2"/>
+         <property name="sessionId" value="2c53d00d4d562b349ba13b22024e5394"/>
+         <property name="projectName" value="device"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Desktop - NZ/About_us" time="37.406" classname="Test Cases/Desktop - NZ/About_us" status="PASSED">
+         <system-out><![CDATA[25-07-2026T14:47:40 - [TEST_CASE][PASSED] - Test Cases/Desktop - NZ/About_us: Test Cases/Desktop - NZ/About_us
+
+25-07-2026T14:47:40 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+25-07-2026T14:47:40 - [TEST_STEP][PASSED] - launch = new steps.Launch(): null
+
+25-07-2026T14:47:40 - [TEST_STEP][PASSED] - aboutus = new stepsNZ.AboutUs(): null
+
+25-07-2026T14:47:42 - [TEST_STEP][PASSED] - launch.launchUrl(baseUrlNZ): Current window maximized
+
+25-07-2026T14:47:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+25-07-2026T14:47:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+25-07-2026T14:47:42 - [MESSAGE][INFO] - User set preference: ['prefs', '{profile.password_manager_leak_detection=false}']
+
+25-07-2026T14:47:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+25-07-2026T14:47:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+25-07-2026T14:48:00 - [MESSAGE][PASSED] - Navigate to 'https://w3q.device.co.nz/' successfully
+
+25-07-2026T14:48:01 - [MESSAGE][PASSED] - Current window maximized
+
+25-07-2026T14:48:01 - [TEST_STEP][PASSED] - aboutus.validateAboutUs(): Validate about us scenario completed SCM-155 - Pass
+
+25-07-2026T14:48:01 - [MESSAGE][INFO] - Starting validate about us scenario..........
+
+25-07-2026T14:48:02 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Menu_items/about_us' is visible
+
+25-07-2026T14:48:02 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Menu_items/about_us' is clickable
+
+25-07-2026T14:48:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Homepage/Menu_items/about_us' is clicked on
+
+25-07-2026T14:48:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+25-07-2026T14:48:04 - [MESSAGE][PASSED] - Scroll to object 'dynamicCompanyOverview' successfully
+
+25-07-2026T14:48:05 - [MESSAGE][PASSED] - Object 'dynamicCompanyOverview' is visible
+
+25-07-2026T14:48:05 - [MESSAGE][PASSED] - Object 'dynamicCompanyOverview' is clickable
+
+25-07-2026T14:48:05 - [MESSAGE][PASSED] - Object: 'dynamicCompanyOverview' is clicked on
+
+25-07-2026T14:48:05 - [MESSAGE][INFO] - Validating who we are page..........
+
+25-07-2026T14:48:06 - [MESSAGE][PASSED] - Object 'Object Repository/About_us/Who_we_are' is present
+
+25-07-2026T14:48:07 - [MESSAGE][PASSED] - Object 'Object Repository/About_us/Delivering_innovation' is present
+
+25-07-2026T14:48:08 - [MESSAGE][PASSED] - Object 'Object Repository/About_us/Seeking_collaboration' is present
+
+25-07-2026T14:48:08 - [MESSAGE][PASSED] - Object 'Object Repository/About_us/Taking_ownership' is present
+
+25-07-2026T14:48:08 - [MESSAGE][PASSED] - Object 'Object Repository/About_us/Practicing_good_business' is present
+
+25-07-2026T14:48:08 - [MESSAGE][PASSED] - Object 'Object Repository/About_us/Championing_the_customer' is present
+
+25-07-2026T14:48:08 - [MESSAGE][INFO] - Validation completed for who we are page..........
+
+25-07-2026T14:48:09 - [MESSAGE][PASSED] - Object 'Object Repository/About_us/Our_strategy_vision' is present
+
+25-07-2026T14:48:09 - [MESSAGE][PASSED] - Object 'Object Repository/About_us/Our_history' is present
+
+25-07-2026T14:48:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Homepage/Menu_items/about_us' is clicked on
+
+25-07-2026T14:48:10 - [MESSAGE][PASSED] - Object: 'Object Repository/About_us/Our_leaders' is clicked on
+
+25-07-2026T14:48:12 - [MESSAGE][PASSED] - Object 'Object Repository/About_us/Meet_our_directors' is present
+
+25-07-2026T14:48:12 - [MESSAGE][PASSED] - Object 'Object Repository/About_us/Meet_our_senior_management' is present
+
+25-07-2026T14:48:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Homepage/Menu_items/about_us' is clicked on
+
+25-07-2026T14:48:13 - [MESSAGE][PASSED] - Object: 'Object Repository/About_us/Careers' is clicked on
+
+25-07-2026T14:48:16 - [MESSAGE][PASSED] - Object 'Object Repository/About_us/Working_here' is present
+
+25-07-2026T14:48:16 - [MESSAGE][PASSED] - Object 'Object Repository/About_us/WorkingHere' is present
+
+25-07-2026T14:48:16 - [MESSAGE][PASSED] - Object 'Object Repository/About_us/P1' is present
+
+25-07-2026T14:48:17 - [MESSAGE][PASSED] - Object 'Object Repository/About_us/h4' is present
+
+25-07-2026T14:48:17 - [MESSAGE][PASSED] - Object 'Object Repository/NZ/Join_our_team' is present
+
+25-07-2026T14:48:17 - [MESSAGE][INFO] - Validate about us scenario completed SCM-155 - Pass
+
+25-07-2026T14:48:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+25-07-2026T14:48:18 - [MESSAGE][PASSED] - Browser is closed
+
+25-07-2026T14:48:18 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[25-07-2026T14:46:34 - [TEST_STEP][PASSED] - Start listener action : setup: null
+
+25-07-2026T14:46:34 - [TEST_SUITE][PASSED] - New Test Suite1: null
+
+25-07-2026T14:48:18 - [TEST_STEP][PASSED] - Start listener action : teardown: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
